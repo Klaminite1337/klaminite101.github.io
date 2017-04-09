@@ -1,74 +1,78 @@
-# Particle Jekyll Theme
+# Jekyll-Bootstrap
 
-![](./particle.jpg)
+The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+## Usage
 
-The Theme features:
+For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
+## Version
 
-## Basic Setup
+0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
+**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
+However, the actual API has not changed at all.
+You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
 
-## Site and User Settings
+## Milestones
 
-You have to fill some informations on `_config.yml` to customize your site.
+[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
 
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+### GOALS
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-```
+* No open PRs against master branch.
+* Squash some bugs.
+* Add some new features (low-hanging fruit).
+* Establish social media presence.
 
-**Don't forget to change your url before you deploy your site!**
 
-## Color and Particle Customization
-- Color Customization
-  - Edit the sass variables
-- Particle Customization
-  - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+### Bugs
 
-## Running the blog in local
+|Bug |Description
+|------|---------------
+|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
+|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
+|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
+|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
 
-In order to compile the assets and run Jekyll on local you need to follow those steps:
+### Features
 
-- Install [NodeJS](https://nodejs.org/)
-- Run `npm install`
-- Run `gulp`
+|Bug |Description
+|------|---------------
+|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
+|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
+|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
+|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
 
-## Questions
+### TODOS
 
-Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
+Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
+
+* Create twitter account. Add link / icon on jekyllbootstrap.com.
+* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
+* Announce state of project, announce roadmap(s), announce new versions as they’re released.
+
+## Contributing
+
+
+To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
+This is very important as it allows me to accept your pull request without having to publish a public version release.
+
+Small, atomic Features, bugs, etc.
+Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
+Please rebase as often as possible when working.
+Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+
+For Big Features or major API extensions/edits:
+This is the one case where I'll accept pull-requests based off the master branch.
+This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
+Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+
+**Jekyll-Bootstrap Documentation Website.**
+
+The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+
 
 ## License
 
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
-
-## Credits
-
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+[MIT](http://opensource.org/licenses/MIT)
