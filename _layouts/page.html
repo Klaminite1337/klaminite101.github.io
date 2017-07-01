@@ -16,85 +16,119 @@ theme :
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <link rel="stylesheet" href="https://klaminite1337.github.io/assets/css/main.css">
+  //reee dont murder me i know this is richards css but its so useful sometimes.
+  <link rel="stylesheet" type="text/css" href="https://stallman.org/common/stallman.css">
 </head>
 
-  <body>
-      <div id="particles-js">
-  <div class="content">
-      <h1>
-        <span class="site-title">Klam's Lab</span>
-        <span class="site-description">Software Developer, Electrical Engineer, Life Long Learner.</span>
-      </h1>
-      <div class="icons-header">
-        <a aria-label="Send email" href="klaminite2000@gmail.com"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Github" target="_blank" href="https://github.com/klaminite1337"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-      </div>
-  </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-</div>
 
-      <section id="about">
-        <div class="container">
-  <div class="user-details">
-    <h3> The Blog </h3>
-    <p>A collection of all my blog posts, detailing a ton of stuff. </p>
-  </div>
-    <div class="alert alert-success" role="alert"><script>
-// Set the date we're counting down to
-var countDownDate = new Date("July 15, 2017 24:00:00").getTime();
-// Update the count down every 1 second
-var x = setInterval(function() {
-    // Get todays date and time
-    var now = new Date().getTime();
-    
-    // Find the distance between now an the count down date
-    var distance = countDownDate - now;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    document.getElementById("demot").innerHTML = "Time until new build:"
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-}, 1000);
-</script>
-      <p id ="demot"></p>
-          <p id="demo"></p>
+    <body>
+
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Klam's Domain</title>
+      <meta name="description" content="Klams Site">
+
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+      <link rel="stylesheet" href="https://klaminite1337.github.io/assets/css/main.css">
+
+
+
+          <div id="particles-js">
+      <div class="content">
+          <h1>
+            <span class="site-title">Klam's Lab</span>
+            <span class="site-description">Software Developer, Electrical Engineer, Nerd</span>
+          </h1>
+          <div class="icons-header">
+            <a aria-label="Send email" href="klaminite2000@gmail.com"><i class="icon fa fa-envelope"></i></a>
+            <a aria-label="My Github" target="_blank" href="https://github.com/klaminite1337"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
           </div>
-    
-   {% include JB/setup %}
-   {% include themes/bootstrap-3/page.html %}
+      </div>
+      <a class="down" href="#about" data-scroll=""><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
 
-      </section>
-        
-      <footer class="footer">
-    <p>&copy; Klaminite</p>
-    <p>Built using Logic and Reasoning <span class="love">❤</span></p>
-</footer>
-<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="https://klaminite1337.github.io/assets/js/sweet-scroll.min.js"></script>
-<script src="https://klaminite1337.github.io/assets/js/main.js"></script>
-<!-- Google Analytics -->
+          <section id="about">
+            <div class="container">
+      <div>
+        <h3> The Blog </h3>
+        <p>A collection of all my blog posts, detailing a ton of stuff. </p>
+      </div>
+        <div class="alert alert-success" role="alert"><script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("July 15, 2017 24:00:00").getTime();
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+        // Get todays date and time
+        var now = new Date().getTime();
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', '', 'auto');
-ga('send', 'pageview');
-</script>
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("demot").innerHTML = "Time until new build:"
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+    </script>
+          <p id="demot">Time until new build:</p>
+              <p id="demo">14d 7h 26m 17s </p>
+              </div>
+
+       {% include JB/setup %}
+       {% include themes/bootstrap-3/page.html %}
+
+          </div></section>
+               <div class="column1">
+      <h3>Posts</h3>
+      {%include themes/bootstrap-3/page.html %}
+    </div>
+      <div class="column2
+                ">
+      <h3>the 'x' of the day</h3>
+      </div>
+
+    <div class="column3">
+      <h3>Links</h3>
+
+    </div>
 
 
 
-  </body>
+          <footer class="footer">
+        <p>© Klaminite</p>
+        <p>Built using Logic and Reasoning <span class="love">❤</span></p>
+    </footer>
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://klaminite1337.github.io/assets/js/sweet-scroll.min.js"></script>
+    <script src="https://klaminite1337.github.io/assets/js/main.js"></script>
+    <!-- Google Analytics -->
 
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
