@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <h1 style="text-align: center;">>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
   <h3 style="text-align: center;">{{ page.date | date_to_long_string }}</h3>
 </div>
 
@@ -40,6 +40,5 @@
     {% endif %}
     </ul>
     <hr>
-    {% include JB/comments %}
   </div>
 </div>
