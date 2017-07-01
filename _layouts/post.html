@@ -1,12 +1,5 @@
- ---
+ ---http://i.imgur.com/MSFkQNO.jpg
   {% include JB/setup %}
-<?php
-  $bg = array('http://33.media.tumblr.com/49310879b89622142c2d0c618b218b9b/tumblr_nbq4wxmzcv1qcbdapo1_500.gif', 'http://38.media.tumblr.com/3234cc733fdf2d9d49f6aace8efaa7f3/tumblr_nmtuvmddR71slaspwo1_250.gif'); // array of filenames
-
-  $i = rand(0, count($bg)-1); // generate random number size of the array
-  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,16 +9,25 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style type="text/css">
-   body {
-    background-image: url("http://i.imgur.com/MSFkQNO.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-position: right top;
-    margin-right: 200px;
-    background-attachment: fixed;http://38.media.tumblr.com/3234cc733fdf2d9d49f6aace8efaa7f3/tumblr_nmtuvmddR71slaspwo1_250.gif
+ <style>
+body, html {
+    height: 100%;
+    margin: 0;
 }
-  </style>
+
+.bg {
+    /* The image used */
+    background-image: url("http://38.media.tumblr.com/3234cc733fdf2d9d49f6aace8efaa7f3/tumblr_nmtuvmddR71slaspwo1_250.gif");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" ></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" ></script>
 <script type="text/javascript">
