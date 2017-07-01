@@ -17,36 +17,32 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style type="text/css">
-  body{
-  background: url(images/<?php echo $selectedBg; ?>) no-repeat;
+   body{background-size:cover;}
+  .content {width:200px; margin:auto; border-radius:20px;height:400px;background:#333}
+  .content p{color:white;font-size:20px;padding:40px;margin:auto;text-align:center;}
+  .imageCycle1{
+      background:url(http://rlv.zcache.com/foo_bar_white_tshirt-p235877025284960249a9t5r_325.jpg);
+      background-repeat:no-repeat;
+      background-size:cover;
+      -webkit-background-size: cover;
+      -moz-background-size:cover;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://rlv.zcache.com/foo_bar_white_tshirt-p235877025284960249a9t5r_325.jpg',sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='http://rlv.zcache.com/foo_bar_white_tshirt-p235877025284960249a9t5r_325.jpg',
+  sizingMethod='scale')";
   }
--->
-</style>
- body{background-size:cover;}
-.content {width:200px; margin:auto; border-radius:20px;height:400px;background:#333}
-.content p{color:white;font-size:20px;padding:40px;margin:auto;text-align:center;}
-.imageCycle1{
-    background:url(http://rlv.zcache.com/foo_bar_white_tshirt-p235877025284960249a9t5r_325.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    -webkit-background-size: cover;
-    -moz-background-size:cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://rlv.zcache.com/foo_bar_white_tshirt-p235877025284960249a9t5r_325.jpg',sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='http://rlv.zcache.com/foo_bar_white_tshirt-p235877025284960249a9t5r_325.jpg',
-sizingMethod='scale')";
-}
-.imageCycle2{
-    background:url(http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Knysnasunset.jpg/250px-Knysnasunset.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    -webkit-background-size: cover;
-    -moz-background-size:cover;
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Knysnasunset.jpg/250px-Knysnasunset.jpg',sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Knysnasunset.jpg/250px-Knysnasunset.jpg',
-sizingMethod='scale')";
-}
+  .imageCycle2{
+      background:url(http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Knysnasunset.jpg/250px-Knysnasunset.jpg);
+      background-repeat:no-repeat;
+      background-size:cover;
+      -webkit-background-size: cover;
+      -moz-background-size:cover;
+      filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Knysnasunset.jpg/250px-Knysnasunset.jpg',sizingMethod='scale');
+      -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  src='http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Knysnasunset.jpg/250px-Knysnasunset.jpg',
+  sizingMethod='scale')";
+  }
+  </style>
 </head>
 <body>
 
