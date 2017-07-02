@@ -26,6 +26,9 @@ occurs, while many politically right people will notice the trend in beliefs, ma
 2001, a year many remember the date of September 11th. The year the world changed, for the better or worse is to be argued, but it was changed. Introduce the [Patriot Act](https://en.wikipedia.org/wiki/Patriot_Act). For starts, click that link, read up on it, if you notice, the first thing on the right you will notice under long title, is that it say
 >An Act to deter an d punish terrorist acts in the United States and around the world, to enhance law enforcement investigatory tools, and for other purposes.
 
+look a bit closer
+
+
 >*and for other purposes.*
 
 Guess what those other purposes are? Welcome to the new age.
