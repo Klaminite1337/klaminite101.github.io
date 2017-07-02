@@ -21,11 +21,11 @@ Fast foward a few centuries, another great empire is birthed, from the sole idea
 
 You may be pondering where this is heading, and I must explain again that we are building up to the current age, everything so far has happened in a blink of an eye, a mere blip, a tap, a thin slice in the massive cake of time. I've defined the fall of Rome, and the Rise of America. Any history buffs will know that one of Romes primary reasons for falling was political instability and corruption, much like what America today is facing. 
 
-Fast foward to the 1990's, the [https://en.wikipedia.org/wiki/1993_World_Trade_Center_bombing](WTC Bombing)
+Fast foward to the 1990's, the [1993 WTC Bombing](https://en.wikipedia.org/wiki/1993_World_Trade_Center_bombing)
 occurs, while many politically right people will notice the trend in beliefs, many left political people will notice the trend in 'anti-isam'. I will take no stance in this series on either political platforms in the case of faith being a motive or not in terrorist attacks. What should be noted is that this is one of the few terrorist attacks that will serve as the breeding grounds for one of the most careless legislative bills in history. 
-2001, a year many remember the date of September 11th. The year the world changed, for the better or worse is to be argued, but it was changed. Introduce the [https://en.wikipedia.org/wiki/Patriot_Act](Patriot Act). For starts, click that link, read up on it, if you notice, the first thing on the right you will notice under long title, is that it say
+2001, a year many remember the date of September 11th. The year the world changed, for the better or worse is to be argued, but it was changed. Introduce the [Patriot Act](https://en.wikipedia.org/wiki/Patriot_Act). For starts, click that link, read up on it, if you notice, the first thing on the right you will notice under long title, is that it say
 >An Act to deter an d punish terrorist acts in the United States and around the world, to enhance law enforcement investigatory tools, and for other purposes.
-[I'm an inline-style link](https://www.google.com)
+
 >*and for other purposes.*
 
 Guess what those other purposes are? Welcome to the new age.
